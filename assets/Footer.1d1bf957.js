@@ -1,0 +1,1 @@
+import{y as e,o as t,c as s,m as a,x as c}from"./index.50f00503.js";const n={},o={class:"h-100 d-flex align-center justify-space-between"},r={class:"d-flex align-center"};function l(_,i){return t(),s("div",o,[a("span",r," \xA9 "+c(new Date().getFullYear()),1)])}const f=e(n,[["render",l]]);export{f as default};
