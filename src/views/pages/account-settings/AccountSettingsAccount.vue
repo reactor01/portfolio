@@ -51,7 +51,8 @@ const accountDataLocal = ref(structuredClone(accountData))
               <li>=> Pinia for state management</li>
               <li>=> Implemented Casl for role or ability authentication to manage user permissions and roles.</li>
               <li>=> Integrated REST APIs to fetch data from external sources and display them in the application.</li>
-              <li>=> Utilized Git and version control to manage the development process and ensure code quality.</li>
+              <li>=> Utilized Git and version control with Feature Branch Workflow model to manage the development process and ensure code quality.</li>
+              <li>=> Continuous Integration (CI) is a software development practice</li>
             </ul>
           </VCardText>
           <VCardTitle class="ma-2">
