@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="/portfolio/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vuexy - Vuejs Admin Dashboard Template</title>
+  <link rel="stylesheet" type="text/css" href="/portfolio/loader.css" />
+  <script type="module" crossorigin src="/portfolio/assets/index.108806e8.js"></script>
+  <link rel="stylesheet" href="/portfolio/assets/index.3cdc109f.css">
+</head>
+
+<body>
+  <div id="app">
+    <div id="loading-bg">
+      <div class="loading-logo">
+        <img src="" alt="" />
+      </div>
+      <div class="loading">
+        <div class="effect-1 effects"></div>
+        <div class="effect-2 effects"></div>
+        <div class="effect-3 effects"></div>
+      </div>
+    </div>
+  </div>
+  
+  <script>
+    const loaderColor = localStorage.getItem('Vuexy-initial-loader-bg') || '#FFFFFF'
+    const primaryColor = localStorage.getItem('Vuexy-initial-loader-color') || '#7367F0'
+
+    if (loaderColor)
+      document.documentElement.style.setProperty('--initial-loader-bg', loaderColor)
+    if (primaryColor)
+      document.documentElement.style.setProperty('--initial-loader-color', primaryColor)
+
+  </script>
+</body>
+
+</html>
