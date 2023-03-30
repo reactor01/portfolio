@@ -20,15 +20,22 @@ const accountDataLocal = ref(structuredClone(accountData))
       >
         <VCardText class="d-flex">
           <!-- 👉 Avatar -->
-          <VAvatar
+          <!--
+            <VAvatar
             rounded
             size="100"
             class="me-6"
             :image="accountDataLocal.avatarImg"
+            /> 
+          -->
+          <VIcon 
+            icon="mdi-user"
+            size="80"
+            class="pb-4"
           />
           <div>
             <h2>Hristo Dimitrov</h2>
-            <p>${JavaScript Developer}</p>
+            <p>${ JavaScript Developer }</p>
           </div>
         </VCardText>
 
@@ -59,7 +66,7 @@ const accountDataLocal = ref(structuredClone(accountData))
             BACK END
           </VCardTitle>
           <VCardText>
-            I am a skilled Node.js backend developer with a passion for creating secure and reliable applications. With experience using MongoDB, Express, JWT, and Postman for testing API, I have a strong understanding of web development concepts and a commitment to best practices for security and reliability.
+            I am a skilled Node.js backend developer with a passion for creating secure and reliable applications. With experience using MongoDB, Mongoose, Express, JWT, and Postman for testing API, I have a strong understanding of web development concepts and a commitment to best practices for security and reliability.
           </VCardText>
           <VCardText>
             Skills:
